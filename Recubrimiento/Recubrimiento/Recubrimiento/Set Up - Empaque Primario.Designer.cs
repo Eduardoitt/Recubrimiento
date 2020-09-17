@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.Menu_Content = new System.Windows.Forms.Panel();
-            this.btn_CatalogoUsuario = new System.Windows.Forms.Button();
-            this.btn_setup = new System.Windows.Forms.Button();
-            this.btn_Secado = new System.Windows.Forms.Button();
-            this.btn_EmpaquePrimario = new System.Windows.Forms.Button();
-            this.btn_Sorteo = new System.Windows.Forms.Button();
-            this.btn_Reportes = new System.Windows.Forms.Button();
             this.btn_CatalogoProducto = new System.Windows.Forms.Button();
+            this.btn_Reportes = new System.Windows.Forms.Button();
+            this.btn_Sorteo = new System.Windows.Forms.Button();
+            this.btn_EmpaquePrimario = new System.Windows.Forms.Button();
+            this.btn_Secado = new System.Windows.Forms.Button();
+            this.btn_setup = new System.Windows.Forms.Button();
+            this.btn_CatalogoUsuario = new System.Windows.Forms.Button();
             this.Panel_Content = new System.Windows.Forms.Panel();
             this.Menu_Content.SuspendLayout();
             this.SuspendLayout();
@@ -56,49 +56,27 @@
             this.Menu_Content.Size = new System.Drawing.Size(200, 649);
             this.Menu_Content.TabIndex = 0;
             // 
-            // btn_CatalogoUsuario
+            // btn_CatalogoProducto
             // 
-            this.btn_CatalogoUsuario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_CatalogoUsuario.Location = new System.Drawing.Point(0, 0);
-            this.btn_CatalogoUsuario.Name = "btn_CatalogoUsuario";
-            this.btn_CatalogoUsuario.Size = new System.Drawing.Size(200, 37);
-            this.btn_CatalogoUsuario.TabIndex = 0;
-            this.btn_CatalogoUsuario.Text = "Catálogo de Usario";
-            this.btn_CatalogoUsuario.UseVisualStyleBackColor = true;
-            this.btn_CatalogoUsuario.Click += new System.EventHandler(this.btn_CatalogoUsuario_Click);
+            this.btn_CatalogoProducto.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_CatalogoProducto.Location = new System.Drawing.Point(0, 222);
+            this.btn_CatalogoProducto.Name = "btn_CatalogoProducto";
+            this.btn_CatalogoProducto.Size = new System.Drawing.Size(200, 37);
+            this.btn_CatalogoProducto.TabIndex = 6;
+            this.btn_CatalogoProducto.Text = "Catálogo de Productos";
+            this.btn_CatalogoProducto.UseVisualStyleBackColor = true;
+            this.btn_CatalogoProducto.Click += new System.EventHandler(this.btn_CatalogoProducto_Click);
             // 
-            // btn_setup
+            // btn_Reportes
             // 
-            this.btn_setup.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_setup.Location = new System.Drawing.Point(0, 37);
-            this.btn_setup.Name = "btn_setup";
-            this.btn_setup.Size = new System.Drawing.Size(200, 37);
-            this.btn_setup.TabIndex = 1;
-            this.btn_setup.Text = "Set Up";
-            this.btn_setup.UseVisualStyleBackColor = true;
-            this.btn_setup.Click += new System.EventHandler(this.btn_setup_Click);
-            // 
-            // btn_Secado
-            // 
-            this.btn_Secado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Secado.Location = new System.Drawing.Point(0, 74);
-            this.btn_Secado.Name = "btn_Secado";
-            this.btn_Secado.Size = new System.Drawing.Size(200, 37);
-            this.btn_Secado.TabIndex = 2;
-            this.btn_Secado.Text = "Secado";
-            this.btn_Secado.UseVisualStyleBackColor = true;
-            this.btn_Secado.Click += new System.EventHandler(this.btn_Secado_Click);
-            // 
-            // btn_EmpaquePrimario
-            // 
-            this.btn_EmpaquePrimario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_EmpaquePrimario.Location = new System.Drawing.Point(0, 111);
-            this.btn_EmpaquePrimario.Name = "btn_EmpaquePrimario";
-            this.btn_EmpaquePrimario.Size = new System.Drawing.Size(200, 37);
-            this.btn_EmpaquePrimario.TabIndex = 3;
-            this.btn_EmpaquePrimario.Text = "Empaque Primario";
-            this.btn_EmpaquePrimario.UseVisualStyleBackColor = true;
-            this.btn_EmpaquePrimario.Click += new System.EventHandler(this.btn_EmpaquePrimario_Click);
+            this.btn_Reportes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Reportes.Location = new System.Drawing.Point(0, 185);
+            this.btn_Reportes.Name = "btn_Reportes";
+            this.btn_Reportes.Size = new System.Drawing.Size(200, 37);
+            this.btn_Reportes.TabIndex = 5;
+            this.btn_Reportes.Text = "Reportes";
+            this.btn_Reportes.UseVisualStyleBackColor = true;
+            this.btn_Reportes.Click += new System.EventHandler(this.btn_Reportes_Click);
             // 
             // btn_Sorteo
             // 
@@ -111,25 +89,49 @@
             this.btn_Sorteo.UseVisualStyleBackColor = true;
             this.btn_Sorteo.Click += new System.EventHandler(this.btn_Sorteo_Click);
             // 
-            // btn_Reportes
+            // btn_EmpaquePrimario
             // 
-            this.btn_Reportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Reportes.Location = new System.Drawing.Point(0, 185);
-            this.btn_Reportes.Name = "btn_Reportes";
-            this.btn_Reportes.Size = new System.Drawing.Size(200, 37);
-            this.btn_Reportes.TabIndex = 5;
-            this.btn_Reportes.Text = "Reportes";
-            this.btn_Reportes.UseVisualStyleBackColor = true;
+            this.btn_EmpaquePrimario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_EmpaquePrimario.Location = new System.Drawing.Point(0, 111);
+            this.btn_EmpaquePrimario.Name = "btn_EmpaquePrimario";
+            this.btn_EmpaquePrimario.Size = new System.Drawing.Size(200, 37);
+            this.btn_EmpaquePrimario.TabIndex = 3;
+            this.btn_EmpaquePrimario.Text = "Empaque Primario";
+            this.btn_EmpaquePrimario.UseVisualStyleBackColor = true;
+            this.btn_EmpaquePrimario.Click += new System.EventHandler(this.btn_EmpaquePrimario_Click);
             // 
-            // btn_CatalogoProducto
+            // btn_Secado
             // 
-            this.btn_CatalogoProducto.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_CatalogoProducto.Location = new System.Drawing.Point(0, 222);
-            this.btn_CatalogoProducto.Name = "btn_CatalogoProducto";
-            this.btn_CatalogoProducto.Size = new System.Drawing.Size(200, 37);
-            this.btn_CatalogoProducto.TabIndex = 6;
-            this.btn_CatalogoProducto.Text = "Catálogo de Productos";
-            this.btn_CatalogoProducto.UseVisualStyleBackColor = true;
+            this.btn_Secado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Secado.Location = new System.Drawing.Point(0, 74);
+            this.btn_Secado.Name = "btn_Secado";
+            this.btn_Secado.Size = new System.Drawing.Size(200, 37);
+            this.btn_Secado.TabIndex = 2;
+            this.btn_Secado.Text = "Secado";
+            this.btn_Secado.UseVisualStyleBackColor = true;
+            this.btn_Secado.Click += new System.EventHandler(this.btn_Secado_Click);
+            // 
+            // btn_setup
+            // 
+            this.btn_setup.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_setup.Location = new System.Drawing.Point(0, 37);
+            this.btn_setup.Name = "btn_setup";
+            this.btn_setup.Size = new System.Drawing.Size(200, 37);
+            this.btn_setup.TabIndex = 1;
+            this.btn_setup.Text = "Set Up";
+            this.btn_setup.UseVisualStyleBackColor = true;
+            this.btn_setup.Click += new System.EventHandler(this.btn_setup_Click);
+            // 
+            // btn_CatalogoUsuario
+            // 
+            this.btn_CatalogoUsuario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_CatalogoUsuario.Location = new System.Drawing.Point(0, 0);
+            this.btn_CatalogoUsuario.Name = "btn_CatalogoUsuario";
+            this.btn_CatalogoUsuario.Size = new System.Drawing.Size(200, 37);
+            this.btn_CatalogoUsuario.TabIndex = 0;
+            this.btn_CatalogoUsuario.Text = "Catálogo de Usario";
+            this.btn_CatalogoUsuario.UseVisualStyleBackColor = true;
+            this.btn_CatalogoUsuario.Click += new System.EventHandler(this.btn_CatalogoUsuario_Click);
             // 
             // Panel_Content
             // 

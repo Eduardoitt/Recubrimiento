@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogoProducto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CatalogoProducto.Designer.cs">
+      <DependentUpon>CatalogoProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="CatalogUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="LoginQA.Designer.cs">
       <DependentUpon>LoginQA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reportes.Designer.cs">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
     <Compile Include="SepUp.cs">
       <SubType>UserControl</SubType>
@@ -96,6 +108,9 @@
     <Compile Include="Sorteo.Designer.cs">
       <DependentUpon>Sorteo.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CatalogoProducto.resx">
+      <DependentUpon>CatalogoProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CatalogUser.resx">
       <DependentUpon>CatalogUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginQA.resx">
       <DependentUpon>LoginQA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes.resx">
+      <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SepUp.resx">
       <DependentUpon>SepUp.cs</DependentUpon>

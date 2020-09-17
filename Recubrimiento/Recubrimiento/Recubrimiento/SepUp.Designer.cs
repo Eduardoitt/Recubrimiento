@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.PnCapBatch = new System.Windows.Forms.Panel();
-            this.lbl_WO = new System.Windows.Forms.Label();
-            this.txt_WO = new System.Windows.Forms.TextBox();
             this.lbl_BatchQuimico = new System.Windows.Forms.Label();
             this.btn_Buscar = new System.Windows.Forms.Button();
             this.txt_BatchQuimico = new System.Windows.Forms.TextBox();
+            this.lbl_WO = new System.Windows.Forms.Label();
+            this.txt_WO = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Material = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CantidadOrden = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,22 +57,6 @@
             this.PnCapBatch.Name = "PnCapBatch";
             this.PnCapBatch.Size = new System.Drawing.Size(243, 552);
             this.PnCapBatch.TabIndex = 0;
-            // 
-            // lbl_WO
-            // 
-            this.lbl_WO.AutoSize = true;
-            this.lbl_WO.Location = new System.Drawing.Point(22, 31);
-            this.lbl_WO.Name = "lbl_WO";
-            this.lbl_WO.Size = new System.Drawing.Size(26, 13);
-            this.lbl_WO.TabIndex = 4;
-            this.lbl_WO.Text = "WO";
-            // 
-            // txt_WO
-            // 
-            this.txt_WO.Location = new System.Drawing.Point(22, 50);
-            this.txt_WO.Name = "txt_WO";
-            this.txt_WO.Size = new System.Drawing.Size(200, 20);
-            this.txt_WO.TabIndex = 3;
             // 
             // lbl_BatchQuimico
             // 
@@ -98,6 +82,22 @@
             this.txt_BatchQuimico.Name = "txt_BatchQuimico";
             this.txt_BatchQuimico.Size = new System.Drawing.Size(200, 20);
             this.txt_BatchQuimico.TabIndex = 0;
+            // 
+            // lbl_WO
+            // 
+            this.lbl_WO.AutoSize = true;
+            this.lbl_WO.Location = new System.Drawing.Point(22, 31);
+            this.lbl_WO.Name = "lbl_WO";
+            this.lbl_WO.Size = new System.Drawing.Size(26, 13);
+            this.lbl_WO.TabIndex = 4;
+            this.lbl_WO.Text = "WO";
+            // 
+            // txt_WO
+            // 
+            this.txt_WO.Location = new System.Drawing.Point(22, 50);
+            this.txt_WO.Name = "txt_WO";
+            this.txt_WO.Size = new System.Drawing.Size(200, 20);
+            this.txt_WO.TabIndex = 3;
             // 
             // dataGridView1
             // 

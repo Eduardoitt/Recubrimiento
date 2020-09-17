@@ -67,6 +67,32 @@ namespace Recubrimiento
         private void btn_Secado_Click(object sender, EventArgs e)
         {
             this.Panel_Content.Controls.Clear();
+            Secado secado = new Secado();
+            secado.Width = this.Panel_Content.Width - 5;
+            secado.Height = this.Panel_Content.Height - 5;
+            secado.Anchor = AnchorStyles.Top & AnchorStyles.Bottom & AnchorStyles.Left & AnchorStyles.Right;
+            this.Panel_Content.Controls.Add(secado);
+
+        }
+
+        private void btn_CatalogoProducto_Click(object sender, EventArgs e)
+        {
+            this.Panel_Content.Controls.Clear();
+            CatalogoProducto CatProduc = new CatalogoProducto();
+            CatProduc.Width = this.Panel_Content.Width - 5;
+            CatProduc.Height = this.Panel_Content.Height - 5;
+            CatProduc.Anchor = AnchorStyles.Top & AnchorStyles.Bottom & AnchorStyles.Left & AnchorStyles.Right;
+            this.Panel_Content.Controls.Add(CatProduc);
+        }
+
+        private void btn_Reportes_Click(object sender, EventArgs e)
+        {
+            this.Panel_Content.Controls.Clear();
+            Reportes rp = new Reportes();
+            rp.Width = this.Panel_Content.Width - 5;
+            rp.Height = this.Panel_Content.Height - 5;
+            rp.Anchor = AnchorStyles.Top & AnchorStyles.Bottom & AnchorStyles.Left & AnchorStyles.Right;
+            this.Panel_Content.Controls.Add(rp);
         }
     }
 }
