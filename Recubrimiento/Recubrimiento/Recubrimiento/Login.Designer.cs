@@ -66,9 +66,9 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.Location = new System.Drawing.Point(276, 237);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(53, 13);
+            this.lblPassword.Size = new System.Drawing.Size(34, 13);
             this.lblPassword.TabIndex = 3;
-            this.lblPassword.Text = "Password";
+            this.lblPassword.Text = "Clave";
             // 
             // lblTitle
             // 

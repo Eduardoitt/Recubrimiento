@@ -76,11 +76,11 @@
     <Compile Include="Reportes.Designer.cs">
       <DependentUpon>Reportes.cs</DependentUpon>
     </Compile>
-    <Compile Include="SepUp.cs">
+    <Compile Include="SetUp.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SepUp.Designer.cs">
-      <DependentUpon>SepUp.cs</DependentUpon>
+    <Compile Include="SetUp.Designer.cs">
+      <DependentUpon>SetUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -123,8 +123,8 @@
     <EmbeddedResource Include="Reportes.resx">
       <DependentUpon>Reportes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SepUp.resx">
-      <DependentUpon>SepUp.cs</DependentUpon>
+    <EmbeddedResource Include="SetUp.resx">
+      <DependentUpon>SetUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
